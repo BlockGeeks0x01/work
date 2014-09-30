@@ -1,0 +1,52 @@
+[2014-09-25 17:12:13,895: WARNING/MainProcess] /Users/suguyu/py27/lib/python2.7/site-packages/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+[2014-09-25 17:12:13,965: INFO/MainProcess] Connected to amqp://guest:**@127.0.0.1:5672//
+[2014-09-25 17:12:13,989: INFO/MainProcess] mingle: searching for neighbors
+[2014-09-25 17:12:15,008: INFO/MainProcess] mingle: all alone
+[2014-09-25 17:12:15,026: WARNING/MainProcess] w1@Sus-Mac-mini.local ready.
+[2014-09-25 17:12:43,110: INFO/MainProcess] Received task: task.add[d2a41ea4-3568-4c37-9f67-b2d8cf53a4d2]
+[2014-09-25 17:12:43,499: INFO/MainProcess] Task task.add[d2a41ea4-3568-4c37-9f67-b2d8cf53a4d2] succeeded in 0.387776202057s: 30
+[2014-09-25 17:12:51,088: INFO/MainProcess] Received task: task.add[d6577c9f-6275-49b0-af0d-f8b99f091f2e]
+[2014-09-25 17:12:51,305: INFO/MainProcess] Task task.add[d6577c9f-6275-49b0-af0d-f8b99f091f2e] succeeded in 0.215504658991s: 30
+[2014-09-25 17:14:53,755: WARNING/MainProcess] /Users/suguyu/py27/lib/python2.7/site-packages/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+[2014-09-25 17:14:53,811: INFO/MainProcess] Connected to amqp://guest:**@127.0.0.1:5672//
+[2014-09-25 17:14:53,830: INFO/MainProcess] mingle: searching for neighbors
+[2014-09-25 17:14:54,849: INFO/MainProcess] mingle: all alone
+[2014-09-25 17:14:54,867: WARNING/MainProcess] w1@Sus-Mac-mini.local ready.
+[2014-09-25 17:14:59,828: INFO/MainProcess] Received task: task.add[7150ba7a-a211-4776-a022-cd6918d4e90d]
+[2014-09-25 17:15:00,035: INFO/MainProcess] Task task.add[7150ba7a-a211-4776-a022-cd6918d4e90d] succeeded in 0.206012687995s: 30
