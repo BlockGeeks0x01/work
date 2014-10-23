@@ -50,3 +50,331 @@ You must only enable the serializers that you will actually use.
 [2014-09-25 17:14:54,867: WARNING/MainProcess] w1@Sus-Mac-mini.local ready.
 [2014-09-25 17:14:59,828: INFO/MainProcess] Received task: task.add[7150ba7a-a211-4776-a022-cd6918d4e90d]
 [2014-09-25 17:15:00,035: INFO/MainProcess] Task task.add[7150ba7a-a211-4776-a022-cd6918d4e90d] succeeded in 0.206012687995s: 30
+[2014-10-05 14:29:25,818: WARNING/MainProcess] /home/harrison/py27/local/lib/python2.7/site-packages/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+[2014-10-05 14:29:25,831: INFO/MainProcess] Connected to amqp://guest:**@127.0.0.1:5672//
+[2014-10-05 14:29:25,840: INFO/MainProcess] mingle: searching for neighbors
+[2014-10-05 14:29:26,851: INFO/MainProcess] mingle: all alone
+[2014-10-05 14:29:26,870: WARNING/MainProcess] w1@harrison-VirtualBox ready.
+[2014-10-05 14:29:44,227: WARNING/MainProcess] /home/harrison/py27/local/lib/python2.7/site-packages/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+[2014-10-05 14:29:44,240: INFO/MainProcess] Connected to amqp://guest:**@127.0.0.1:5672//
+[2014-10-05 14:29:44,249: INFO/MainProcess] mingle: searching for neighbors
+[2014-10-05 14:29:45,258: INFO/MainProcess] mingle: all alone
+[2014-10-05 14:29:45,286: WARNING/MainProcess] w1@harrison-VirtualBox ready.
+[2014-10-05 14:52:04,854: WARNING/MainProcess] /home/harrison/py27/local/lib/python2.7/site-packages/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+[2014-10-05 14:52:04,868: INFO/MainProcess] Connected to amqp://guest:**@127.0.0.1:5672//
+[2014-10-05 14:52:04,876: INFO/MainProcess] mingle: searching for neighbors
+[2014-10-05 14:52:05,888: INFO/MainProcess] mingle: all alone
+[2014-10-05 14:52:05,914: WARNING/MainProcess] w1@harrison-VirtualBox ready.
+[2014-10-05 14:52:45,787: INFO/MainProcess] Received task: proj.tasks.add[76048482-a043-4a17-9d2f-a2d69a9a1ebe] eta:[2014-10-05 06:52:55.773464+00:00]
+[2014-10-05 14:52:55,943: INFO/MainProcess] Task proj.tasks.add[76048482-a043-4a17-9d2f-a2d69a9a1ebe] succeeded in 0.0286447249964s: 7
+[2014-10-05 14:54:07,525: INFO/MainProcess] Received task: proj.tasks.add[a3344d4e-3692-424b-9466-b2b578eb4b89] eta:[2014-10-05 06:54:17.522223+00:00]
+[2014-10-05 14:54:18,086: INFO/MainProcess] Task proj.tasks.add[a3344d4e-3692-424b-9466-b2b578eb4b89] succeeded in 0.00929096099571s: 7
+[2014-10-05 14:57:31,001: WARNING/MainProcess] /home/harrison/py27/local/lib/python2.7/site-packages/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+[2014-10-05 14:57:31,015: INFO/MainProcess] Connected to amqp://guest:**@127.0.0.1:5672//
+[2014-10-05 14:57:31,023: INFO/MainProcess] mingle: searching for neighbors
+[2014-10-05 14:57:32,033: INFO/MainProcess] mingle: all alone
+[2014-10-05 14:57:32,057: WARNING/MainProcess] w1@harrison-VirtualBox ready.
+[2014-10-05 14:57:46,919: INFO/MainProcess] Received task: proj.tasks.add[f3c0c0f8-3d57-400a-9044-cfba3d3ebd54] eta:[2014-10-05 06:57:56.916739+00:00]
+[2014-10-05 14:57:57,118: INFO/MainProcess] Task proj.tasks.add[f3c0c0f8-3d57-400a-9044-cfba3d3ebd54] succeeded in 0.0631220299983s: 7
+[2014-10-05 15:08:46,633: INFO/MainProcess] Received task: proj.tasks.add[12ff0e9e-632c-437c-809b-e81045d20248]
+[2014-10-05 15:08:46,658: INFO/MainProcess] Task proj.tasks.add[12ff0e9e-632c-437c-809b-e81045d20248] succeeded in 0.0242681590025s: 5
+[2014-10-05 15:18:04,073: INFO/MainProcess] Received task: proj.tasks.add[4d5a9bce-a0c3-4f42-a555-7bde5b32e0b9]
+[2014-10-05 15:18:04,082: INFO/MainProcess] Received task: proj.tasks.add[95ede195-0ed7-42fa-9f67-b8465235570f]
+[2014-10-05 15:18:04,084: INFO/MainProcess] Received task: proj.tasks.add[74ee3123-d378-40d5-a713-c351eacd431c]
+[2014-10-05 15:18:04,086: INFO/MainProcess] Received task: proj.tasks.add[b8b4d3ca-ad8b-406c-9aeb-69260e831a36]
+[2014-10-05 15:18:04,087: INFO/MainProcess] Received task: proj.tasks.add[b7f89918-71fc-4501-a48d-4fde66c7e9c3]
+[2014-10-05 15:18:04,119: INFO/MainProcess] Task proj.tasks.add[4d5a9bce-a0c3-4f42-a555-7bde5b32e0b9] succeeded in 0.0407698659983s: 0
+[2014-10-05 15:18:04,122: INFO/MainProcess] Received task: proj.tasks.add[c3f50309-b26f-4590-9063-eb25bb5f8319]
+[2014-10-05 15:18:04,147: INFO/MainProcess] Task proj.tasks.add[95ede195-0ed7-42fa-9f67-b8465235570f] succeeded in 0.0279103650028s: 2
+[2014-10-05 15:18:04,150: INFO/MainProcess] Received task: proj.tasks.add[fcb55094-8de7-41d2-a48d-052cd13163d1]
+[2014-10-05 15:18:04,173: INFO/MainProcess] Task proj.tasks.add[74ee3123-d378-40d5-a713-c351eacd431c] succeeded in 0.0254153589995s: 4
+[2014-10-05 15:18:04,178: INFO/MainProcess] Received task: proj.tasks.add[26691301-7cbe-4cb2-8028-06dff5035a04]
+[2014-10-05 15:18:04,181: INFO/MainProcess] Task proj.tasks.add[b8b4d3ca-ad8b-406c-9aeb-69260e831a36] succeeded in 0.00712664299499s: 6
+[2014-10-05 15:18:04,184: INFO/MainProcess] Received task: proj.tasks.add[0aab0916-55af-4081-8986-9559a8ab1678]
+[2014-10-05 15:18:04,212: INFO/MainProcess] Task proj.tasks.add[b7f89918-71fc-4501-a48d-4fde66c7e9c3] succeeded in 0.030567228001s: 8
+[2014-10-05 15:18:04,215: INFO/MainProcess] Received task: proj.tasks.add[d622181e-7646-469b-acfb-bb35dab213af]
+[2014-10-05 15:18:04,241: INFO/MainProcess] Task proj.tasks.add[c3f50309-b26f-4590-9063-eb25bb5f8319] succeeded in 0.0284374690018s: 10
+[2014-10-05 15:18:04,245: INFO/MainProcess] Task proj.tasks.add[fcb55094-8de7-41d2-a48d-052cd13163d1] succeeded in 0.00358374600182s: 12
+[2014-10-05 15:18:04,249: INFO/MainProcess] Task proj.tasks.add[26691301-7cbe-4cb2-8028-06dff5035a04] succeeded in 0.00394544000301s: 14
+[2014-10-05 15:18:04,255: INFO/MainProcess] Task proj.tasks.add[0aab0916-55af-4081-8986-9559a8ab1678] succeeded in 0.00435089600069s: 16
+[2014-10-05 15:18:04,258: INFO/MainProcess] Task proj.tasks.add[d622181e-7646-469b-acfb-bb35dab213af] succeeded in 0.00311987700115s: 18
+[2014-10-05 15:18:29,933: INFO/MainProcess] Received task: proj.tasks.add[04fba88b-4d88-499b-b364-4ad38897f319]
+[2014-10-05 15:18:29,943: INFO/MainProcess] Received task: proj.tasks.add[640630d2-51d4-44c8-896e-ae233f594297]
+[2014-10-05 15:18:29,947: INFO/MainProcess] Received task: proj.tasks.add[6686d410-11ef-422a-abd3-1f4eb4246d07]
+[2014-10-05 15:18:29,949: INFO/MainProcess] Received task: proj.tasks.add[41c4cc7b-12fc-455b-9fa7-4f8f776e6ed5]
+[2014-10-05 15:18:29,951: INFO/MainProcess] Received task: proj.tasks.add[22acf107-5fb1-4599-80be-e80a1084ec67]
+[2014-10-05 15:18:29,969: INFO/MainProcess] Task proj.tasks.add[04fba88b-4d88-499b-b364-4ad38897f319] succeeded in 0.0354665060004s: 10
+[2014-10-05 15:18:29,972: INFO/MainProcess] Received task: proj.tasks.add[e7cb6558-c57e-4827-a019-66b591c29bc7]
+[2014-10-05 15:18:29,988: INFO/MainProcess] Task proj.tasks.add[640630d2-51d4-44c8-896e-ae233f594297] succeeded in 0.0187251769967s: 11
+[2014-10-05 15:18:29,991: INFO/MainProcess] Received task: proj.tasks.add[1be7c702-ce30-4f03-8566-084b067113be]
+[2014-10-05 15:18:30,021: INFO/MainProcess] Task proj.tasks.add[6686d410-11ef-422a-abd3-1f4eb4246d07] succeeded in 0.0326481489974s: 12
+[2014-10-05 15:18:30,024: INFO/MainProcess] Received task: proj.tasks.add[69ff29f3-ae74-4409-a5b2-345805c42a1d]
+[2014-10-05 15:18:30,050: INFO/MainProcess] Task proj.tasks.add[41c4cc7b-12fc-455b-9fa7-4f8f776e6ed5] succeeded in 0.0285479430022s: 13
+[2014-10-05 15:18:30,052: INFO/MainProcess] Received task: proj.tasks.add[0398ab95-9299-4ea1-8e96-f2e3bbe910c3]
+[2014-10-05 15:18:30,055: INFO/MainProcess] Task proj.tasks.add[22acf107-5fb1-4599-80be-e80a1084ec67] succeeded in 0.00449620799918s: 14
+[2014-10-05 15:18:30,057: INFO/MainProcess] Received task: proj.tasks.add[6076ba76-9b71-4583-8c4e-b29616ab4379]
+[2014-10-05 15:18:30,089: INFO/MainProcess] Task proj.tasks.add[e7cb6558-c57e-4827-a019-66b591c29bc7] succeeded in 0.0336365960029s: 15
+[2014-10-05 15:18:30,092: INFO/MainProcess] Task proj.tasks.add[1be7c702-ce30-4f03-8566-084b067113be] succeeded in 0.00310209700547s: 16
+[2014-10-05 15:18:30,095: INFO/MainProcess] Task proj.tasks.add[69ff29f3-ae74-4409-a5b2-345805c42a1d] succeeded in 0.00278207500378s: 17
+[2014-10-05 15:18:30,130: INFO/MainProcess] Task proj.tasks.add[0398ab95-9299-4ea1-8e96-f2e3bbe910c3] succeeded in 0.0348811020012s: 18
+[2014-10-05 15:18:30,134: INFO/MainProcess] Task proj.tasks.add[6076ba76-9b71-4583-8c4e-b29616ab4379] succeeded in 0.00325956100278s: 19
+[2014-10-05 15:19:54,308: INFO/MainProcess] Received task: proj.tasks.add[29d5ee46-781d-4591-85c0-e6b573d060f3]
+[2014-10-05 15:19:54,326: INFO/MainProcess] Received task: proj.tasks.mul[b1190ff5-112e-4885-a5fb-3bb923524d68]
+[2014-10-05 15:19:54,356: INFO/MainProcess] Task proj.tasks.add[29d5ee46-781d-4591-85c0-e6b573d060f3] succeeded in 0.044677898004s: 8
+[2014-10-05 15:19:54,373: INFO/MainProcess] Task proj.tasks.mul[b1190ff5-112e-4885-a5fb-3bb923524d68] succeeded in 0.0162992760015s: 64
+[2014-10-05 15:20:18,170: INFO/MainProcess] Received task: proj.tasks.add[b00048f8-6574-44a8-8cfa-039f8314fb6a]
+[2014-10-05 15:20:18,186: INFO/MainProcess] Received task: proj.tasks.add[5c58690d-a030-4b39-94df-19edfcbe9dc8]
+[2014-10-05 15:20:18,195: INFO/MainProcess] Received task: proj.tasks.add[c4f430c1-876f-448b-ad45-a1ff9e689216]
+[2014-10-05 15:20:18,202: INFO/MainProcess] Received task: proj.tasks.add[f8e53a58-7151-4c3c-a91c-6164c7205c09]
+[2014-10-05 15:20:18,208: INFO/MainProcess] Received task: proj.tasks.add[bcd06e6a-efdd-4cbc-ad9b-ce5ef48e6aa8]
+[2014-10-05 15:20:18,211: INFO/MainProcess] Task proj.tasks.add[b00048f8-6574-44a8-8cfa-039f8314fb6a] succeeded in 0.0357000509975s: 10
+[2014-10-05 15:20:18,214: INFO/MainProcess] Received task: proj.tasks.add[edf5ca2b-7e5f-4a48-b016-2c9b3b03690d]
+[2014-10-05 15:20:18,240: INFO/MainProcess] Task proj.tasks.add[5c58690d-a030-4b39-94df-19edfcbe9dc8] succeeded in 0.0290421669997s: 11
+[2014-10-05 15:20:18,242: INFO/MainProcess] Received task: proj.tasks.add[4693fb69-6c54-4475-bbc8-743ed31f049f]
+[2014-10-05 15:20:18,244: INFO/MainProcess] Task proj.tasks.add[c4f430c1-876f-448b-ad45-a1ff9e689216] succeeded in 0.00356364800246s: 12
+[2014-10-05 15:20:18,246: INFO/MainProcess] Received task: proj.tasks.add[24771e80-3902-4f4b-bf31-f68cf4db5d99]
+[2014-10-05 15:20:18,277: INFO/MainProcess] Task proj.tasks.add[f8e53a58-7151-4c3c-a91c-6164c7205c09] succeeded in 0.032442032003s: 13
+[2014-10-05 15:20:18,280: INFO/MainProcess] Received task: proj.tasks.add[15afb720-b237-468b-99c1-40deb1a738e6]
+[2014-10-05 15:20:18,306: INFO/MainProcess] Task proj.tasks.add[bcd06e6a-efdd-4cbc-ad9b-ce5ef48e6aa8] succeeded in 0.0285436010017s: 14
+[2014-10-05 15:20:18,308: INFO/MainProcess] Received task: proj.tasks.add[dbe299fa-0afb-47f8-821f-6d8fa9d722c7]
+[2014-10-05 15:20:18,332: INFO/MainProcess] Task proj.tasks.add[edf5ca2b-7e5f-4a48-b016-2c9b3b03690d] succeeded in 0.0262825480022s: 15
+[2014-10-05 15:20:18,336: INFO/MainProcess] Task proj.tasks.add[4693fb69-6c54-4475-bbc8-743ed31f049f] succeeded in 0.00331156099855s: 16
+[2014-10-05 15:20:18,339: INFO/MainProcess] Task proj.tasks.add[24771e80-3902-4f4b-bf31-f68cf4db5d99] succeeded in 0.00225049800065s: 17
+[2014-10-05 15:20:18,367: INFO/MainProcess] Task proj.tasks.add[15afb720-b237-468b-99c1-40deb1a738e6] succeeded in 0.0278388659935s: 18
+[2014-10-05 15:20:18,371: INFO/MainProcess] Task proj.tasks.add[dbe299fa-0afb-47f8-821f-6d8fa9d722c7] succeeded in 0.00393881900527s: 19
+[2014-10-05 15:20:52,558: INFO/MainProcess] Received task: proj.tasks.add[dea98297-f1ea-406f-b5af-482bd417680e]
+[2014-10-05 15:20:52,573: INFO/MainProcess] Received task: proj.tasks.mul[3c0d3a07-bf71-4310-8b35-32a1295f7b0f]
+[2014-10-05 15:20:52,592: INFO/MainProcess] Task proj.tasks.add[dea98297-f1ea-406f-b5af-482bd417680e] succeeded in 0.032728760998s: 8
+[2014-10-05 15:20:52,619: INFO/MainProcess] Task proj.tasks.mul[3c0d3a07-bf71-4310-8b35-32a1295f7b0f] succeeded in 0.0261458809982s: 64
+[2014-10-05 15:21:16,108: INFO/MainProcess] Received task: proj.tasks.add[5f04a2a1-90d2-4045-b88f-beacb3174992]
+[2014-10-05 15:21:16,121: INFO/MainProcess] Received task: proj.tasks.mul[1fe1cda2-2ab5-42d7-92ba-69a6340a3d34]
+[2014-10-05 15:21:16,161: INFO/MainProcess] Task proj.tasks.add[5f04a2a1-90d2-4045-b88f-beacb3174992] succeeded in 0.0515685530045s: 8
+[2014-10-05 15:21:16,180: INFO/MainProcess] Task proj.tasks.mul[1fe1cda2-2ab5-42d7-92ba-69a6340a3d34] succeeded in 0.0180904569934s: 72
+[2014-10-05 15:26:11,560: INFO/MainProcess] Received task: proj.tasks.add[5b99a965-3703-425a-b745-34ec0452c35a]
+[2014-10-05 15:26:11,575: INFO/MainProcess] Received task: proj.tasks.add[b52f2460-d8c8-4510-adcf-2ddf711f43cd]
+[2014-10-05 15:26:11,576: INFO/MainProcess] Received task: proj.tasks.add[f8996884-56e8-45a1-b99f-4e00a73de21a]
+[2014-10-05 15:26:11,576: INFO/MainProcess] Received task: proj.tasks.add[181cec1a-1a2f-493e-9a4f-19180b219313]
+[2014-10-05 15:26:11,577: INFO/MainProcess] Received task: proj.tasks.add[e44d567b-2173-4528-a8db-fedb897352eb]
+[2014-10-05 15:26:11,732: INFO/MainProcess] Task proj.tasks.add[5b99a965-3703-425a-b745-34ec0452c35a] succeeded in 0.171082194s: 0
+[2014-10-05 15:26:11,738: INFO/MainProcess] Received task: proj.tasks.add[b9ec5af2-ed29-471a-8fe2-e4b3af0c533f]
+[2014-10-05 15:26:11,755: INFO/MainProcess] Task proj.tasks.add[b52f2460-d8c8-4510-adcf-2ddf711f43cd] succeeded in 0.0220096409976s: 2
+[2014-10-05 15:26:11,758: INFO/MainProcess] Received task: proj.tasks.add[747e732f-7d22-42ab-a605-4f33224e3a0d]
+[2014-10-05 15:26:11,781: INFO/MainProcess] Task proj.tasks.add[f8996884-56e8-45a1-b99f-4e00a73de21a] succeeded in 0.0252870320037s: 4
+[2014-10-05 15:26:11,784: INFO/MainProcess] Received task: proj.tasks.add[9a4ec1ac-7b1b-4db5-9f0b-d356572f9a81]
+[2014-10-05 15:26:11,798: INFO/MainProcess] Task proj.tasks.add[181cec1a-1a2f-493e-9a4f-19180b219313] succeeded in 0.0163950310016s: 6
+[2014-10-05 15:26:11,805: INFO/MainProcess] Received task: proj.tasks.add[e92e3634-9ff7-479a-976c-70a61e8f76b0]
+[2014-10-05 15:26:11,831: INFO/MainProcess] Task proj.tasks.add[e44d567b-2173-4528-a8db-fedb897352eb] succeeded in 0.0314143929936s: 8
+[2014-10-05 15:26:11,833: INFO/MainProcess] Received task: proj.tasks.add[a587d236-2e59-44d6-bbc6-3367bb44bd4c]
+[2014-10-05 15:26:11,841: INFO/MainProcess] Task proj.tasks.add[b9ec5af2-ed29-471a-8fe2-e4b3af0c533f] succeeded in 0.00965599399933s: 10
+[2014-10-05 15:26:11,845: INFO/MainProcess] Received task: celery.chord_unlock[ce1145de-485c-4960-b9da-0bbb4fd69153] eta:[2014-10-05 07:26:12.581214+00:00]
+[2014-10-05 15:26:11,860: INFO/MainProcess] Task proj.tasks.add[747e732f-7d22-42ab-a605-4f33224e3a0d] succeeded in 0.0180375069976s: 12
+[2014-10-05 15:26:11,878: INFO/MainProcess] Task proj.tasks.add[9a4ec1ac-7b1b-4db5-9f0b-d356572f9a81] succeeded in 0.0175106000024s: 14
+[2014-10-05 15:26:11,897: INFO/MainProcess] Task proj.tasks.add[e92e3634-9ff7-479a-976c-70a61e8f76b0] succeeded in 0.0186922840003s: 16
+[2014-10-05 15:26:11,909: INFO/MainProcess] Task proj.tasks.add[a587d236-2e59-44d6-bbc6-3367bb44bd4c] succeeded in 0.0107855710012s: 18
+[2014-10-05 15:26:14,641: INFO/MainProcess] Task celery.chord_unlock[ce1145de-485c-4960-b9da-0bbb4fd69153] succeeded in 0.204552659001s: None
+[2014-10-05 15:26:14,649: INFO/MainProcess] Received task: proj.tasks.xsum[1af7a6eb-c39e-4a11-ab86-dc839225752b]
+[2014-10-05 15:26:14,655: INFO/MainProcess] Task proj.tasks.xsum[1af7a6eb-c39e-4a11-ab86-dc839225752b] succeeded in 0.0027737690034s: 90
+[2014-10-05 15:30:32,197: INFO/MainProcess] sync with worker@harrison-VirtualBox
+[2014-10-05 15:41:32,231: INFO/MainProcess] Events of group {task} enabled by remote.
+[2014-10-05 15:44:39,116: INFO/MainProcess] Received task: proj.tasks.add[2aa93644-d26e-4190-af94-fede4c30b337]
+[2014-10-05 15:44:39,134: INFO/MainProcess] Received task: proj.tasks.add[11095fa6-ee5a-4679-b6df-f2e9bf11850d]
+[2014-10-05 15:44:39,137: INFO/MainProcess] Received task: proj.tasks.add[4a2efe34-254a-4442-974e-14c4bab1333e]
+[2014-10-05 15:44:39,141: INFO/MainProcess] Received task: proj.tasks.add[d6aa2a13-4e49-42b3-9181-9b2a4127d314]
+[2014-10-05 15:44:39,148: INFO/MainProcess] Received task: proj.tasks.add[b235e847-114d-4307-8fa7-9a25f654f1ac]
+[2014-10-05 15:44:39,157: INFO/MainProcess] Task proj.tasks.add[2aa93644-d26e-4190-af94-fede4c30b337] succeeded in 0.033103972004s: 0
+[2014-10-05 15:44:39,160: INFO/MainProcess] Received task: proj.tasks.add[75659210-dd3d-4898-b1b4-3d744e637ce4]
+[2014-10-05 15:44:39,175: INFO/MainProcess] Task proj.tasks.add[11095fa6-ee5a-4679-b6df-f2e9bf11850d] succeeded in 0.0173266429993s: 2
+[2014-10-05 15:44:39,182: INFO/MainProcess] Received task: proj.tasks.add[b6ca0bd0-de1b-4ba1-b337-577122c9c5ee]
+[2014-10-05 15:44:39,201: INFO/MainProcess] Task proj.tasks.add[4a2efe34-254a-4442-974e-14c4bab1333e] succeeded in 0.0252580360029s: 4
+[2014-10-05 15:44:39,205: INFO/MainProcess] Received task: proj.tasks.add[fde341da-6c34-42cf-9361-e9627e731356]
+[2014-10-05 15:44:39,219: INFO/MainProcess] Task proj.tasks.add[d6aa2a13-4e49-42b3-9181-9b2a4127d314] succeeded in 0.0170800750057s: 6
+[2014-10-05 15:44:39,222: INFO/MainProcess] Received task: proj.tasks.add[337334c3-9e63-4bc7-a06d-72e25ce3297a]
+[2014-10-05 15:44:39,242: INFO/MainProcess] Task proj.tasks.add[b235e847-114d-4307-8fa7-9a25f654f1ac] succeeded in 0.022359868999s: 8
+[2014-10-05 15:44:39,245: INFO/MainProcess] Received task: proj.tasks.add[78c31686-c14a-4e5d-99fd-839ef0e8014a]
+[2014-10-05 15:44:39,259: INFO/MainProcess] Task proj.tasks.add[75659210-dd3d-4898-b1b4-3d744e637ce4] succeeded in 0.0166774250029s: 10
+[2014-10-05 15:44:39,264: INFO/MainProcess] Received task: celery.chord_unlock[44509010-1255-4766-9755-ef1960f6a972] eta:[2014-10-05 07:44:40.151812+00:00]
+[2014-10-05 15:44:39,277: INFO/MainProcess] Task proj.tasks.add[b6ca0bd0-de1b-4ba1-b337-577122c9c5ee] succeeded in 0.0174811699981s: 12
+[2014-10-05 15:44:39,295: INFO/MainProcess] Task proj.tasks.add[fde341da-6c34-42cf-9361-e9627e731356] succeeded in 0.0167932449986s: 14
+[2014-10-05 15:44:39,313: INFO/MainProcess] Task proj.tasks.add[337334c3-9e63-4bc7-a06d-72e25ce3297a] succeeded in 0.0173208689957s: 16
+[2014-10-05 15:44:39,331: INFO/MainProcess] Task proj.tasks.add[78c31686-c14a-4e5d-99fd-839ef0e8014a] succeeded in 0.0167974080032s: 18
+[2014-10-05 15:44:40,553: INFO/MainProcess] Task celery.chord_unlock[44509010-1255-4766-9755-ef1960f6a972] succeeded in 0.232200154001s: None
+[2014-10-05 15:44:40,554: INFO/MainProcess] Received task: proj.tasks.xsum[ca812129-3302-4098-8552-4cd26fac482e]
+[2014-10-05 15:44:40,560: INFO/MainProcess] Task proj.tasks.xsum[ca812129-3302-4098-8552-4cd26fac482e] succeeded in 0.00437861999671s: 90
+[2014-10-05 15:46:00,092: INFO/MainProcess] Received task: proj.tasks.add[02deba6b-f655-411d-99a0-18273b51a769]
+[2014-10-05 15:46:00,105: INFO/MainProcess] Received task: proj.tasks.add[5ea8b618-1be9-4832-aae3-8b6c6ca57d10]
+[2014-10-05 15:46:00,107: INFO/MainProcess] Received task: proj.tasks.add[9aee553c-25f7-4b13-823d-fc7fde38c317]
+[2014-10-05 15:46:00,110: INFO/MainProcess] Received task: proj.tasks.add[3940bd6b-6bbe-4b94-ad74-3427925da323]
+[2014-10-05 15:46:00,113: INFO/MainProcess] Received task: proj.tasks.add[7f84c538-eef4-4210-a2b0-bf0f07983839]
+[2014-10-05 15:46:00,125: INFO/MainProcess] Task proj.tasks.add[02deba6b-f655-411d-99a0-18273b51a769] succeeded in 0.0313344230017s: 0
+[2014-10-05 15:46:00,132: INFO/MainProcess] Received task: proj.tasks.add[fcfce1c1-6b4b-4dae-a901-142c53b7f266]
+[2014-10-05 15:46:00,139: INFO/MainProcess] Task proj.tasks.add[5ea8b618-1be9-4832-aae3-8b6c6ca57d10] succeeded in 0.0115377929978s: 2
+[2014-10-05 15:46:00,142: INFO/MainProcess] Received task: proj.tasks.add[6b403c6f-c793-4971-99d9-b14e2e4a8896]
+[2014-10-05 15:46:00,167: INFO/MainProcess] Task proj.tasks.add[9aee553c-25f7-4b13-823d-fc7fde38c317] succeeded in 0.0276146960023s: 4
+[2014-10-05 15:46:00,172: INFO/MainProcess] Received task: proj.tasks.add[dd6493db-6f20-4353-b88b-a04b83b4aeca]
+[2014-10-05 15:46:00,183: INFO/MainProcess] Task proj.tasks.add[3940bd6b-6bbe-4b94-ad74-3427925da323] succeeded in 0.0153373390058s: 6
+[2014-10-05 15:46:00,187: INFO/MainProcess] Received task: celery.chord_unlock[858b420b-6041-4a2e-a5e3-02d9abc4d06a] eta:[2014-10-05 07:46:01.114806+00:00]
+[2014-10-05 15:46:00,207: INFO/MainProcess] Task proj.tasks.add[7f84c538-eef4-4210-a2b0-bf0f07983839] succeeded in 0.0228864279998s: 8
+[2014-10-05 15:46:00,221: INFO/MainProcess] Task proj.tasks.add[fcfce1c1-6b4b-4dae-a901-142c53b7f266] succeeded in 0.0137450879993s: 10
+[2014-10-05 15:46:00,241: INFO/MainProcess] Task proj.tasks.add[6b403c6f-c793-4971-99d9-b14e2e4a8896] succeeded in 0.0194206590022s: 12
+[2014-10-05 15:46:00,254: INFO/MainProcess] Task proj.tasks.add[dd6493db-6f20-4353-b88b-a04b83b4aeca] succeeded in 0.0113859560006s: 14
+[2014-10-05 15:46:02,280: INFO/MainProcess] Task celery.chord_unlock[858b420b-6041-4a2e-a5e3-02d9abc4d06a] succeeded in 0.150532572996s: None
+[2014-10-05 15:46:02,281: INFO/MainProcess] Received task: proj.tasks.xsum[bbf6c177-322c-4b34-9a73-b901b8dcbbbf]
+[2014-10-05 15:46:02,288: INFO/MainProcess] Task proj.tasks.xsum[bbf6c177-322c-4b34-9a73-b901b8dcbbbf] succeeded in 0.00545115899877s: 56
+[2014-10-07 11:34:23,376: INFO/MainProcess] missed heartbeat from worker@harrison-VirtualBox
+[2014-10-07 11:40:13,507: WARNING/MainProcess] consumer: Connection to broker lost. Trying to re-establish the connection...
+Traceback (most recent call last):
+  File "/home/harrison/py27/local/lib/python2.7/site-packages/celery/worker/consumer.py", line 278, in start
+    blueprint.start(self)
+  File "/home/harrison/py27/local/lib/python2.7/site-packages/celery/bootsteps.py", line 123, in start
+    step.start(parent)
+  File "/home/harrison/py27/local/lib/python2.7/site-packages/celery/worker/consumer.py", line 821, in start
+    c.loop(*c.loop_args())
+  File "/home/harrison/py27/local/lib/python2.7/site-packages/celery/worker/loops.py", line 70, in asynloop
+    next(loop)
+  File "/home/harrison/py27/local/lib/python2.7/site-packages/kombu/async/hub.py", line 324, in create_loop
+    cb(*cbargs)
+  File "/home/harrison/py27/local/lib/python2.7/site-packages/kombu/transport/base.py", line 162, in on_readable
+    reader(loop)
+  File "/home/harrison/py27/local/lib/python2.7/site-packages/kombu/transport/base.py", line 144, in _read
+    drain_events(timeout=0)
+  File "/home/harrison/py27/local/lib/python2.7/site-packages/amqp/connection.py", line 320, in drain_events
+    return amqp_method(channel, args)
+  File "/home/harrison/py27/local/lib/python2.7/site-packages/amqp/connection.py", line 526, in _close
+    (class_id, method_id), ConnectionError)
+ConnectionForced: (0, 0): (320) CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'
+[2014-10-07 11:40:13,625: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 2.00 seconds...
+
+[2014-10-07 11:40:15,652: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 4.00 seconds...
+
+[2014-10-07 15:35:34,144: WARNING/MainProcess] /home/harrison/py27/local/lib/python2.7/site-packages/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+[2014-10-07 15:35:34,204: INFO/MainProcess] Connected to amqp://guest:**@127.0.0.1:5672//
+[2014-10-07 15:35:34,220: INFO/MainProcess] mingle: searching for neighbors
+[2014-10-07 15:35:35,247: INFO/MainProcess] mingle: all alone
+[2014-10-07 15:35:35,269: WARNING/MainProcess] w1@harrison-VirtualBox ready.
+[2014-10-07 15:36:37,094: INFO/MainProcess] Received task: proj.tasks.add[4ee23f9c-8010-483b-aff4-d183f5593ab8]
+[2014-10-07 15:36:37,116: INFO/MainProcess] Received task: proj.tasks.add[43274257-627e-4336-9d22-f990aecbdc82]
+[2014-10-07 15:36:37,133: INFO/MainProcess] Task proj.tasks.add[4ee23f9c-8010-483b-aff4-d183f5593ab8] succeeded in 0.038381884s: 4
+[2014-10-07 15:36:37,151: INFO/MainProcess] Task proj.tasks.add[43274257-627e-4336-9d22-f990aecbdc82] succeeded in 0.0154920899995s: 20
+[2014-10-07 15:37:57,083: INFO/MainProcess] Received task: proj.tasks.add[f375f0eb-18ac-4369-8e1b-fe06ab74f55e]
+[2014-10-07 15:37:57,099: INFO/MainProcess] Received task: proj.tasks.add[b0d11a04-3a53-45f3-a238-315f4ccb98bc]
+[2014-10-07 15:37:57,119: INFO/MainProcess] Task proj.tasks.add[f375f0eb-18ac-4369-8e1b-fe06ab74f55e] succeeded in 0.033496387s: 4
+[2014-10-07 15:37:57,141: INFO/MainProcess] Task proj.tasks.add[b0d11a04-3a53-45f3-a238-315f4ccb98bc] succeeded in 0.0204692460002s: 20
+[2014-10-16 08:08:05,474: WARNING/MainProcess] consumer: Connection to broker lost. Trying to re-establish the connection...
+Traceback (most recent call last):
+  File "/home/harrison/py27/local/lib/python2.7/site-packages/celery/worker/consumer.py", line 278, in start
+    blueprint.start(self)
+  File "/home/harrison/py27/local/lib/python2.7/site-packages/celery/bootsteps.py", line 123, in start
+    step.start(parent)
+  File "/home/harrison/py27/local/lib/python2.7/site-packages/celery/worker/consumer.py", line 821, in start
+    c.loop(*c.loop_args())
+  File "/home/harrison/py27/local/lib/python2.7/site-packages/celery/worker/loops.py", line 70, in asynloop
+    next(loop)
+  File "/home/harrison/py27/local/lib/python2.7/site-packages/kombu/async/hub.py", line 324, in create_loop
+    cb(*cbargs)
+  File "/home/harrison/py27/local/lib/python2.7/site-packages/kombu/transport/base.py", line 162, in on_readable
+    reader(loop)
+  File "/home/harrison/py27/local/lib/python2.7/site-packages/kombu/transport/base.py", line 144, in _read
+    drain_events(timeout=0)
+  File "/home/harrison/py27/local/lib/python2.7/site-packages/amqp/connection.py", line 320, in drain_events
+    return amqp_method(channel, args)
+  File "/home/harrison/py27/local/lib/python2.7/site-packages/amqp/connection.py", line 526, in _close
+    (class_id, method_id), ConnectionError)
+ConnectionForced: (0, 0): (320) CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'
+[2014-10-16 08:08:05,642: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 2.00 seconds...
+
+[2014-10-16 08:08:07,659: ERROR/MainProcess] consumer: Cannot connect to amqp://guest:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 4.00 seconds...
+
